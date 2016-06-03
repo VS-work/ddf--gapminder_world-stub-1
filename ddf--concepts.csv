@@ -4,7 +4,6 @@ city,City,entity_set,geo,,,"[""ordinal""]","[""country"",""main_religion_2008""]
 code,CODE,string,,,,,,,,
 color,Color,string,,,,,,,,
 country,Country,entity_set,geo,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,,"[""ordinal""]","[""geographic_regions"",""income_groups"",""landlocked"",""g77_and_oecd_countries"",""geographic_regions_in_4_colors"",""main_religion_2008""]",,,
-description,Description,string,,,,,,,,
 en,English,entity_set,translations,,,,,,,
 energy_use_total,Energy use,measure,,https://docs.google.com/spreadsheet/pub?key=0AkBd6lyS3EmpdHd2Nld0NEVFOGRiSTc0V3ZoekNuS1E,,"[""linear"",""log""]",,tons in oil eqv,,"Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport, counted in tonnes of oil equivalent (toe)."
 geo,Geographic location,entity_domain,,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,,"[""ordinal""]",,,,
