@@ -1,6 +1,9 @@
 concept,name,concept_type,domain,indicator_url,color,scales,drill_up,unit,interpolation,description
 age2,Age,entity_domain,,,,"[""linear"",""log""]",,years,,
 city,City,entity_set,geo,,,"[""ordinal""]","[""country"",""main_religion_2008"",""world_4region""]",,,
+SomeCoolDomain,SomeCoolDomainnnnn,entity_domain,,,,"[""ordinal""]",,,,
+SomeCoolSet,SomeCoolSettttttt,entity_set,SomeCoolDomain,,,"[""ordinal""]",,,,
+SomeCoolSet2,SomeCoolSettttttt2,entity_set,SomeCoolDomain,,,"[""ordinal""]","[""SomeCoolSet""]",,,
 code,CODE,string,,,,,,,,
 color,Color,string,,,,,,,,
 country,Country,entity_set,geo,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,,"[""ordinal""]","[""geographic_regions"",""income_groups"",""landlocked"",""g77_and_oecd_countries"",""geographic_regions_in_4_colors"",""main_religion_2008""]",,,
